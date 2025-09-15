@@ -1,42 +1,38 @@
-# Google Data Analytics Capstone: Cyclistic Bike-Share Case Study
+# Google Data Analytics Capstone: Hotel Bookings Analysis  
 
-This repository contains my final capstone project for the **Google Data Analytics Professional Certificate**.  
-The goal was to apply the full data analysis process (Ask, Prepare, Process, Analyze, Share, Act) to real-world business data.
-
----
+This project is part of my **Google Data Analytics Professional Certificate** portfolio.  
+It demonstrates the full data analysis process — from **Ask, Prepare, Process, Analyze, Share, Act** — on the popular **Hotel Bookings dataset**.  
 
 ## 📊 Project Steps
-1. **Ask**: Business task – Identify how casual riders could be converted into annual members.  
-2. **Prepare**: Collected 12 months of Cyclistic trip data.  
-3. **Process**: Cleaned and transformed the data using R.  
-4. **Analyze**: Conducted descriptive statistics and trend analysis.  
-5. **Share**: Created visualizations to present key insights.  
-6. **Act**: Suggested data-driven marketing strategies.
-
----
+1. **Ask**: Identify factors correlated with booking cancellations.  
+2. **Prepare**: Load and clean 119,390 rows of hotel booking data.  
+3. **Process**: Feature engineering (lead time, customer type, ADR, etc.).  
+4. **Analyze**: Descriptive statistics and trend analysis with Python.  
+5. **Share**: Visualizations (see below).  
+6. **Act**: Recommendations to reduce cancellations and optimize revenue.  
 
 ## 🛠 Tools Used
-- R programming  
-- Spreadsheets  
-- SQL  
-- Tableau  
+- Python (Pandas, Matplotlib, NumPy)  
+- Google Colab  
+- GitHub for version control  
+
+## 📈 Visualizations
+### Cancellation Rate by Deposit Type  
+![Deposit Type](images/cancel_by_deposit.png)
+
+### Cancellation Rate by Market Segment  
+![Market Segment](images/cancel_by_segment.png)
+
+### Median ADR by Month  
+![ADR by Month](images/adr_by_month.png)
 
 ---
 
-## 📈 Key Findings
-- Casual riders are more active on weekends, while members ride consistently year-round.  
-- Annual members take shorter, more frequent trips, while casual riders take longer trips.  
-- Recommendation: Develop targeted marketing campaigns encouraging casual riders to purchase annual memberships, particularly highlighting weekend benefits.
+✅ **Key Insight**:  
+- Non-refundable deposits strongly increase cancellation rates.  
+- Online TA and Group bookings have higher cancellation rates.  
+- ADR (price) peaks during the summer months (July–August).  
 
 ---
 
-## 📂 Repository Structure
-- `notebooks/` → R scripts or Jupyter notebooks  
-- `images/` → Visualizations and charts  
-- `data/` → Datasets or links to data sources  
-- `README.md` → Project overview  
-
----
-
-## 🎓 Certificate
-This project is part of the **Google Data Analytics Professional Certificate** on Coursera.
+📌 Author: **Yahya Mubaraki**  
