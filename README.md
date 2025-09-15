@@ -16,23 +16,26 @@ It demonstrates the full data analysis process — from **Ask, Prepare, Process,
 - Google Colab  
 - GitHub for version control  
 
-## 📈 Visualizations
+## 📊 Visualizations  
+
 ### Cancellation Rate by Deposit Type  
-![Deposit Type](images/cancel_by_deposit.png)
+![Deposit Type](images/cancel_by_deposit.png)  
 
 ### Cancellation Rate by Market Segment  
-![Market Segment](images/cancel_by_segment.png)
+![Market Segment](images/cancel_by_segment.png)  
 
 ### Median ADR by Month  
-![ADR by Month](images/adr_by_month.png)
+![ADR by Month](images/adr_by_month.png)  
 
 ---
 
-✅ **Key Insight**:  
+## ✅ Key Insights  
+
 - Non-refundable deposits strongly increase cancellation rates.  
 - Online TA and Group bookings have higher cancellation rates.  
 - ADR (price) peaks during the summer months (July–August).  
 
 ---
 
-📌 Author: **Yahya Mubaraki**  
+**Author:** Yahya Mubaraki  
+
